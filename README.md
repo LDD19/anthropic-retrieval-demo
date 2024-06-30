@@ -241,8 +241,7 @@ answer = client.completion_with_retrieval(
 
 ### Setting up and using an Embedding Database
 
-[You can see this example in the examples/ folder here using local vectorstores.](examples/local-retrieval.ipynb)
-[You can see this example in the examples/ folder here using remote vectorstores.](examples/remote-retrieval.ipynb)
+[You can see this example in the examples/ folder here using local and remote vectorstores.](examples/embeddings-retrieval.ipynb)
 
 A common external knowledge base is a set of documents. In this example, we will chunk and embed local documents and save them to a (local) vectorstore, then retrieve from that vectorstore when answering queries.
 
